@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26.5px;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteiner__logo{
+    gap: 0.4em;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner__logo p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+}
+
+.conteiner__listas{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin-right: 200px;
+}
+
+.conteiner__listas a{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.conteiner__botao{
+    gap: 2em;
+    align-items: center;
+}
+
+.conteiner__botao a{
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.conteiner__link-entrar{
+    color: #667085;
+}
+
+.conteiner__link-cadastrar{
+    color: #ffffff;
+    background: #8E2424;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.cabecalho__p1{
+    padding: 0 0 24px 0;
+    font-weight: 600;
+    color: #8E2424;
+    font-size: 16px;
+}
+.cabecalho__p2{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #101828;
+}
+
+.cabecalho__p3{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #667085;
+    padding: 24px 0 0 0;
+    width: 791px;
+    text-align: center;
+}
+
+.container__metricas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7em 4em 7em;
+    
+}
+
+.metrica__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: #8E2424;
+    margin-bottom: 12px;
+}
+
+.metrica__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+}
+
+.metrica__texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    margin-top: 8px;
+    width: 280px;
+}
+
+.conteiner__tercario{
+    margin-top: 180px;
+    text-align: center;
+}
+
+.conteiner__span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8E2424;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+
+.conteiner-tercario__titulo{
+    margin: 20px 0 25px 0;
+    font: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+.conteiner-tercario__texto{
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #667085;
+}
+
+.conteiner-tercario__imagem{
+    margin: 0 60px 50px 60px;
+}
+
+.conteiner__quarto{
+    margin: 4em 21em 6em 21em ;
+}
+
+.secoes_titulo{
+    font-size: 20px;
+    color: #101828;
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+.secoes_item{
+    margin-bottom: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.secoes_subtitulo{
+    font-weight: 600;
+    font-size: 18px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.secoes_texto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #667085;
+}
+
+.secoes__conteiner-texto{
+    display: flex;
+    gap: 24px;
+}
+
+.conteiner__final{
+    margin: 6em 7em;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.final_span{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+
+.final_texto{
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    padding-bottom: 32px;
+    padding: 0 24px 0 24px;
+}
+
+.final_nome{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 0 4px 0;
+}
+
+.final_descricao{
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    padding-bottom: 64px
+}
+
+.rodape{
+    background: #F9FAFB;
+    text-align: center;
+}
+
+.rodape_titulo{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 64px 0 20px 0;
+}
+
+.rodape_texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    padding: 0 0 40px 0;
+}
+
+.rodape_input-email{
+    width: 360px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    margin-right: 16px;
+}
+
+.rodape_input-email placeholder{
+    color: #667085;
+}
+
+.rodape_botao{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 20px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.rodape_texto-final{
+    color: #98a2b3;
+    padding: 32px 0 96px 0;
+}
